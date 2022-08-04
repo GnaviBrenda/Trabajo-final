@@ -1,0 +1,3 @@
+alert("Bienvenidos a mundo patitas")
+confirm("¿Desea recibir noticicaciones de nuestra organizacion?")
+true
