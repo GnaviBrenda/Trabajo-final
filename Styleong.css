@@ -1,0 +1,69 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.cuerpo{
+display: grid;
+grid-template-columns: 3fr ;
+font-style: italic; font-style: "Trebuchet MS";
+justify-content: center;
+position: absolute;
+
+
+}
+
+header{
+    grid-template-columns: 1/3;
+    text-align: center;
+    height: 250px;
+    font-style: italic;
+   
+ }
+
+main{
+    
+    text-align: center;
+    font-style: italic;
+    
+}
+
+aside{
+   background-color: rgb(134, 71, 206);
+   float: right;
+
+}
+
+footer{
+
+background-color: rgb(62, 160, 240);
+ position:fixed;
+  bottom:0;
+  width: 100%;
+  height: 40px;
+float: inline-end; 
+}
+
+nav.bar{
+    align-items: center;
+
+}
+
+article{
+    background-color: aqua;
+    width: 50%;
+    height: 350PX;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
